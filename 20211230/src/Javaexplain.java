@@ -3,13 +3,9 @@ public class Javaexplain {
 
 	public static void main(String[] args) {
 	
-    for(int a = 1; a < 6; a++) {
-    	for (int b = 0; a > b; b++) {
-    		System.out.print("*");
-    	}
-    	System.out.println();
-    }
-		
+		String[] a = {"안녕", "hi", "니하오", "싸왓디"};
+		int i = (int)(Math.random() * 5);
+		System.out.println(a[i]);
 
 	}
 
