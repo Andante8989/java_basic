@@ -3,10 +3,15 @@ public class Javaexplain {
 
 	public static void main(String[] args) {
 	
-		String[] a = {"안녕", "hi", "니하오", "싸왓디"};
-		int i = (int)(Math.random() * 5);
-		System.out.println(a[i]);
-
+		String a = "java";
+		String b = "hello";
+		String c = new String("java");
+		
+		System.out.println(a.equals(c));
+		System.out.println(a.equals(b));
+		
+		System.out.println(a == b);
+		System.out.println(a == c);
 	}
 
 }
