@@ -24,7 +24,7 @@ public class Explain {
 				bool = false;
 			} else {
 				count += 1;
-				fnl += 1;
+				fnl = get;
 				System.out.println(get + "번째 에서 " + count + "회 찾았습니다.");
 				
 			}
